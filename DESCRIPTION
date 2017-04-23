@@ -1,0 +1,47 @@
+Package: heatmaps
+Title: Flexible Heatmaps for Functional Genomics and Sequence Features
+Version: 0.99.13
+Date: 18-01-2016
+Author: Malcolm Perry <mgperry32@gmail.com>
+Maintainer: Malcolm Perry <mgperry32@gmail.com>
+Depends:
+    R (>= 3.4)
+Imports:
+    methods,
+    grDevices,
+    graphics,
+    stats,
+    Biostrings,
+    GenomicRanges,
+    IRanges,
+    KernSmooth,
+    plotrix,
+    Matrix,
+    EBImage,
+    RColorBrewer,
+    BiocGenerics,
+    GenomeInfoDb
+Suggests:
+    BSgenome.Drerio.UCSC.danRer7,
+    knitr,
+    rmarkdown,
+    testthat
+biocViews: Visualization, SequenceMatching, FunctionalGenomics
+License: Artistic-2.0
+Description: This package provides functions for plotting heatmaps of genome-wide
+             data across genomic intervals, such as ChIP-seq signals at peaks or across promoters.
+             Many functions are also provided for investigating sequence features.
+VignetteBuilder: knitr
+Collate:
+    Heatmap-class.R
+    PlotHeatmap.R
+    PlotHeatmapList.R
+    PlotPatternDensityMap.R
+    PWMScanHeatmap.R
+    PatternHeatmap.R
+    CoverageHeatmap.R
+    SmoothHeatmap.R
+    PlotHeatmapMeta.R
+    Data.R
+NeedsCompilation: no
+RoxygenNote: 6.0.1

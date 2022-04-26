@@ -1,6 +1,6 @@
 Package: heatmaps
 Title: Flexible Heatmaps for Functional Genomics and Sequence Features
-Version: 1.19.1
+Version: 1.20.0
 Date: 2021-11-21
 Author: Malcolm Perry <mgperry32@gmail.com>
 Maintainer: Malcolm Perry <mgperry32@gmail.com>

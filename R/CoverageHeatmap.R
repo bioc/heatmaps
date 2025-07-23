@@ -25,7 +25,7 @@
 #' @return A Heatmap object
 #'
 #' @importFrom GenomicRanges coverage strand
-#' @importFrom GenomeInfoDb seqlevels
+#' @importFrom Seqinfo seqlevels
 #' @importFrom IRanges Views revElements tile mean
 #' @export
 #' @examples

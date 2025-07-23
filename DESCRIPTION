@@ -1,7 +1,7 @@
 Package: heatmaps
 Title: Flexible Heatmaps for Functional Genomics and Sequence Features
-Version: 1.33.0
-Date: 2021-11-21
+Version: 1.33.1
+Date: 2025-07-22
 Author: Malcolm Perry <mgperry32@gmail.com>
 Maintainer: Malcolm Perry <mgperry32@gmail.com>
 Depends:
@@ -20,7 +20,7 @@ Imports:
     EBImage,
     RColorBrewer,
     BiocGenerics,
-    GenomeInfoDb
+    Seqinfo
 Suggests:
     BSgenome.Drerio.UCSC.danRer7,
     knitr,
